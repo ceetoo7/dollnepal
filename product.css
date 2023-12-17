@@ -43,7 +43,7 @@ img{
     padding: 20px;
 }
 .img-container img{
-    width: 280px;
+    width: 320px;
     margin: 0 auto;
 }
 .hover-container{
@@ -136,7 +136,7 @@ img{
 
 .add-cart-btn:hover{
     background-color: #fff;
-    color: #FF9F00;
+    color: #ff2a7c;
 }
 .buy-now-btn{
     background-color: #000;
