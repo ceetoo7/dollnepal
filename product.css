@@ -43,7 +43,7 @@ img{
     padding: 20px;
 }
 .img-container img{
-    width: 250px;
+    width: 320px;
     margin: 0 auto;
 }
 .hover-container{
@@ -123,6 +123,7 @@ img{
     background-color: #ff2a7c;
     border: 2px solid #ff2a7c;
     margin-right: 8px;
+    border-radius: 20px 0px 20px 0px;
 }
 
 
@@ -136,7 +137,8 @@ img{
 
 .add-cart-btn:hover{
     background-color: #fff;
-    color: #FF9F00;
+    color: #ff2a7c;
+    border-radius: 20px 20px 20px 0px;
 }
 .buy-now-btn{
     background-color: #000;

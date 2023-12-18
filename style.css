@@ -11442,10 +11442,14 @@ section {
   .header .title {
     margin-bottom: 0;
     white-space: nowrap; }
-  .header .header-logo a {
-    display: block;
-    max-width: 100px;
-    margin: 0 auto; }
+  .header .header-logo  {
+    display: flex;
+    flex-direction: row;
+    max-width: 150px;
+    margin: 0 auto;
+
+  
+  }
   .header .header-logo .logo-dark {
     display: block; }
   .header .header-logo .logo-light {
