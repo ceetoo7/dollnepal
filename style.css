@@ -11451,7 +11451,10 @@ section {
   
   }
   .header .header-logo .logo-dark {
-    display: block; }
+    display: block;
+    width: 30px;
+    height: 30px;
+   }
   .header .header-logo .logo-light {
     display: none; }
   .header.style-1 {
