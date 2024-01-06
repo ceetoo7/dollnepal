@@ -1,27 +1,17 @@
 /**
-	Template Name 	 : W3Cart
-	Author			 : DexignZone
-	Version			 : 1.0
-	File Name		 : custom.js
-	Author Portfolio : https://themeforest.net/user/dexignzone/portfolio
-	
-	Core script to handle the entire theme and core functions
+
+	File Name		 : custom.js	
+	Core script to handle the entire page and core functions
 	
 **/
 
-w3cart = function(){
+dollnepal = function(){
 	
 	"use strict"
 	
 	var screenWidth = $( window ).width();
 	var screenHeight = $( window ).height();
-	
-	// Preloader ============
-	var handleloader = function(){
-		setTimeout(function() {
-            jQuery('#loader').fadeOut(300);
-		},300);
-	}
+
 
 	// Menubar Toggler ============
     var handleMenubar = function() {
@@ -398,8 +388,8 @@ w3cart = function(){
 	var appNavigateShare = function(){
 
 		const dzShareData = {
-			title: 'W3Cart',
-			text: 'W3Cart - Ecommerce Mobile App Template ( Bootstrap + PWA )',
+			title: 'Doll Nepal',
+			text: 'Doll Nepal- Top dolls and teddy bear provider in Nepal.',
 			url: document.location.protocol + "//" + document.location.host
 		}
 
@@ -488,7 +478,6 @@ w3cart = function(){
 		},
 
 		load:function(){
-			handlePreloader();
 			handleSelectpicker();
 			appNavigateShare();
 		},
@@ -504,7 +493,7 @@ w3cart = function(){
 /* Document.ready Start */	
 jQuery(document).ready(function() {
     'use strict';
-	w3cart.init();
+	dollnepal.init();
 	
 	$('[data-bs-toggle="popover"]').popover();
     $('.theme-dark .custom-switch input').prop('checked', true);
@@ -515,7 +504,7 @@ jQuery(document).ready(function() {
 /* Window Load START */
 jQuery(window).on('load',function () {
 	'use strict'; 
-	w3cart.load();
+	dollnepal.load();
     
 	setTimeout(function(){
 		jQuery('#splashscreen').addClass('active');
@@ -531,7 +520,7 @@ jQuery(window).on('load',function () {
 jQuery(window).on('resize',function () {
 	'use strict'; 
 	
-	w3cart.resize();
+	dollnepal.resize();
 });
 /*  Window Resize END */	
 

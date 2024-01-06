@@ -1,10 +1,6 @@
 /**
-	Template Name 	 : W3Cart
-	Author			 : DexignZone
-	Version			 : 1.0
+
 	File Name		 : dz.carousel.js
-	Author Portfolio : https://themeforest.net/user/dexignzone/portfolio
-	
 	Core script to handle the entire theme and core functions
 	
 **/
@@ -16,11 +12,11 @@ jQuery(document).ready(function() {
     // Get Started ==========
     if(jQuery('.get-started').length > 0){
 		var swiperGetStarted = new Swiper('.get-started', {
-			speed: 1500,
+			speed: 1000,
 			slidesPerView: "auto",
 			spaceBetween: 0,
 			autoplay: {
-			   delay: 1500,
+			   delay: 3000,
 			},
 			loop:false,
 			pagination: {
@@ -32,11 +28,11 @@ jQuery(document).ready(function() {
 	
 	if(jQuery('.banner-swiper').length > 0){
 		var swiperBannerSwiper = new Swiper('.banner-swiper', {
-			speed: 500,
+			speed: 1600,
 			slidesPerView: 1,
 			spaceBetween: 0,
 			autoplay: {
-			   delay: 1500,
+			   delay: 2000,
 			},
 			loop: true,
 			pagination: {
@@ -68,7 +64,7 @@ jQuery(document).ready(function() {
 	
 	if(jQuery('.trending-swiper').length > 0){
 		var swipertrendingSwiper = new Swiper('.trending-swiper', {
-			speed: 500,
+			speed: 1000,
 			slidesPerView: 2.2,
 			spaceBetween: 15,
 			autoplay: {

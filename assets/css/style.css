@@ -1,81 +1,10 @@
-/* 	=========================
-	Template Name 	 : W3Kit
-	Author			 : DexignZone
-	Version			 : 1.0
-	Author Portfolio : https://themeforest.net/user/dexignzone
-	=========================
-	
-	=========================
-	[Table of Contents]
-	=========================
-	==============
-	  SCSS Start
-	==============
-	1. Abstracts
-        1.1 _bs-custom	
-        1.2 _inheritance
-        1.3 _maps
-        1.4 _mixin
-        1.5 _variable
 
-    2. Bootstrap 
-        2.1 Here goes all official bootstrap scss files
-
-    3. Global/Base
-        3.1 _color
-        3.2 _custom-grid
-        3.3 _fonts
-        3.4 _helper 
-        3.5 _reset
-
-    4. Layout
-        4.1 footer
-        4.2 header
-        4.3 sidebar
-        4.4 typography
-
-
-    5. Components
-        5.1 app
-        5.2 charts
-        5.3 forms
-        5.4 ico
-        5.5 map
-        5.6 tables
-        5.7 uc
-        5.8 ui
-        5.9 widget
-	
-    6. Pages
-        6.1  _banking
-        6.2  _business
-        6.3  _ecommerce
-        6.4  _ecom-product-detail
-        6.5  _ecom-product-grid
-        6.6  _ecom-product-list
-        6.7  _flight-booking
-        6.8  _homepage
-        6.9  _lifestyle
-        6.10 _page-auth
-        6.11 _page-error
-        6.12 _pages
-        6.13 _sales
-        6.14 _statistics-page
-        6.15 _stock
-		
-	7. PreLoader 
-	
-	==============
-	  SCSS End
-	==============
-========================= */
-/*==== 1. Abstracts ====*/
 @import url("../icons/fontawesome/css/all.min.css");
 @import url("../icons/feather/css/iconfont.css");
 @import url("../icons/flaticon/flaticon.css");
 @import url("../icons/themify-icons/css/themify-icons.css");
 :root {
-  --primary: #0D775E;
+  --primary: rgb(246, 72, 159);
   --bg-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 37.5%, rgba(255, 255, 255, 0.67) 44.84%, #FFF 56.23%, #FFF 100%);
   --primary-light: rgba(13, 119, 94, 0.50);
   --primary-hover: #08493a;
@@ -135,7 +64,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0D775E;
+  --bs-primary: rgb(246, 72, 159);
   --bs-secondary: #000;
   --bs-success: #43CD8B;
   --bs-info: #A131AD;
@@ -199,10 +128,10 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: #2F2F2F;
-  --bs-link-color: #0D775E;
+  --bs-link-color: rgb(246, 72, 159);
   --bs-link-color-rgb: 13, 119, 94;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #0a5f4b;
+  --bs-link-hover-color: rgb(246, 72, 159);
   --bs-link-hover-color-rgb: 10, 95, 75;
   --bs-code-color: #ff0081;
   --bs-highlight-bg: #ffeecc;
@@ -2631,19 +2560,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #0D775E;
-  --bs-btn-border-color: #0D775E;
+  --bs-btn-bg: rgb(246, 72, 159);
+  --bs-btn-border-color: rgb(246, 72, 159);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0b6550;
-  --bs-btn-hover-border-color: #0a5f4b;
+  --bs-btn-hover-bg: rgb(246, 72, 159);
+  --bs-btn-hover-border-color: rgb(246, 72, 159);
   --bs-btn-focus-shadow-rgb: 49, 139, 118;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0a5f4b;
-  --bs-btn-active-border-color: #0a5947;
+  --bs-btn-active-bg: rgb(246, 72, 159);
+  --bs-btn-active-border-color: rgb(246, 72, 159);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0D775E;
-  --bs-btn-disabled-border-color: #0D775E; }
+  --bs-btn-disabled-bg: rgb(246, 72, 159);
+  --bs-btn-disabled-border-color: rgb(246, 72, 159); }
 
 .btn-secondary {
   --bs-btn-color: #fff;
@@ -2758,19 +2687,19 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #2f2f2f; }
 
 .btn-outline-primary {
-  --bs-btn-color: #0D775E;
-  --bs-btn-border-color: #0D775E;
+  --bs-btn-color: rgb(246, 72, 159);
+  --bs-btn-border-color: rgb(246, 72, 159);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0D775E;
-  --bs-btn-hover-border-color: #0D775E;
+  --bs-btn-hover-bg: rgb(246, 72, 159);
+  --bs-btn-hover-border-color: rgb(246, 72, 159);
   --bs-btn-focus-shadow-rgb: 13, 119, 94;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0D775E;
-  --bs-btn-active-border-color: #0D775E;
+  --bs-btn-active-bg: rgb(246, 72, 159);
+  --bs-btn-active-border-color: rgb(246, 72, 159);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #0D775E;
+  --bs-btn-disabled-color: rgb(246, 72, 159);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #0D775E;
+  --bs-btn-disabled-border-color: rgb(246, 72, 159);
   --bs-gradient: none; }
 
 .btn-outline-secondary {
@@ -2987,7 +2916,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-hover-color: var(--bs-body-color);
   --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
   --bs-dropdown-link-active-color: #fff;
-  --bs-dropdown-link-active-bg: #0D775E;
+  --bs-dropdown-link-active-bg: rgb(246, 72, 159);
   --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
   --bs-dropdown-item-padding-x: 1rem;
   --bs-dropdown-item-padding-y: 0.25rem;
@@ -3376,7 +3305,7 @@ textarea.form-control-lg {
 .nav-pills {
   --bs-nav-pills-border-radius: var(--bs-border-radius);
   --bs-nav-pills-link-active-color: #fff;
-  --bs-nav-pills-link-active-bg: #0D775E; }
+  --bs-nav-pills-link-active-bg: rgb(246, 72, 159); }
   .nav-pills .nav-link {
     border-radius: var(--bs-nav-pills-border-radius); }
     .nav-pills .nav-link:disabled {
@@ -11442,12 +11371,19 @@ section {
   .header .title {
     margin-bottom: 0;
     white-space: nowrap; }
-  .header .header-logo a {
-    display: block;
-    max-width: 100px;
-    margin: 0 auto; }
+  .header .header-logo  {
+    display: flex;
+    flex-direction: row;
+    max-width: 150px;
+    margin: 0 auto;
+
+  
+  }
   .header .header-logo .logo-dark {
-    display: block; }
+    display: block;
+    width: 30px;
+    height: 30px;
+   }
   .header .header-logo .logo-light {
     display: none; }
   .header.style-1 {
